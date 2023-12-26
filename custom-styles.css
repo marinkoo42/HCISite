@@ -1,0 +1,62 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+  font-size: 13px;
+}
+
+.content {
+  position: relative;
+  background: url('images/pozadina.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.icon-circle {
+  position: relative;
+  top: -30px;
+}
+
+.icon-circle span {
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.carousel-dot {
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.btn-view-all {
+  width: 200px;
+}
+
+ .bg-blur {
+  border-radius: 30px;
+  color:white;
+  font-weight: bold;
+  backdrop-filter: blur(12px);
+  border: 3px solid #f1f1f1;
+  padding: 0 0 50px 10px;
+
+}
+
+#aboutUs {
+  background: url('images/plum.jpg');
+  background-size: cover;
+}
+
+#aboutUs .info {
+  background: transparent;
+}
+
+.card{
+  background-color: #dfdfdf;
+}
